@@ -13,6 +13,7 @@ def signin_page(request):
         login(request, login_user)
         
         return redirect('home_page')
+    # HEll0
     
     return render(request, 'signin.html')
 
