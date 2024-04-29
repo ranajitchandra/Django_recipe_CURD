@@ -173,3 +173,4 @@ def user_profile(request):
 
 def home_page(request):
     return render(request, 'home.html')
+# this is command
