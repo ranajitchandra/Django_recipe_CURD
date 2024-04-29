@@ -173,3 +173,10 @@ def user_profile(request):
 
 def home_page(request):
     return render(request, 'home.html')
+
+def testing(request):
+    pass
+
+def test(request):
+    pass
+
