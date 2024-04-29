@@ -173,4 +173,7 @@ def user_profile(request):
 
 def home_page(request):
     return render(request, 'home.html')
-# this is command
+
+def chef_profile_page(request):
+    get_obj=chef_profile.objects.all()
+    return render(request, 'chef_profile.html', {'chef_profile':get_obj})

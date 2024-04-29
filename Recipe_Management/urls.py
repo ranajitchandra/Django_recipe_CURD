@@ -19,4 +19,5 @@ urlpatterns = [
     path('user_profile/', user_profile, name='user_profile'),
     path('home_page/', home_page, name='home_page'),
     path('view2_recipe/', view2_recipe, name='view2_recipe'),
+    path('chef_profile_page/', chef_profile_page, name='chef_profile_page'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
